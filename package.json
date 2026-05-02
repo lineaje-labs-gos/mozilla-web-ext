@@ -1,6 +1,6 @@
 {
   "name": "web-ext",
-  "version": "8.2.0",
+  "version": "8.2.0-lineaje-01",
   "description": "A command line tool to help build, run, and test web extensions",
   "type": "module",
   "main": "index.js",
@@ -40,7 +40,7 @@
   "homepage": "https://github.com/mozilla/web-ext",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mozilla/web-ext.git"
+    "url": "https://github.com/lineaje-labs-gos/mozilla-web-ext"
   },
   "bugs": {
     "url": "http://github.com/mozilla/web-ext/issues"
@@ -124,6 +124,12 @@
   },
   "author": "Kumar McMillan",
   "license": "MPL-2.0",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "nyc": {
     "include": "src/**/*.js",
     "reporter": [
